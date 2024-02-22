@@ -1,0 +1,40 @@
+.signup-component{
+    display: flex;
+    height: 100hv;
+    width: 100%;
+    justify-content: center;
+  }
+  .left-content{
+    width: 50%;
+  }
+  .signup-component form{
+    display: grid;
+    justify-content: left;
+    margin-top: 100px;
+  }
+  label{
+    font-size: 24px;
+    font-weight: 200;
+    color: #252525;
+    margin-top: 10px;
+  }
+  input{
+    width: 400px;
+    height: 30px;
+    outline: none;
+  }
+  input:focus{
+    border: 1px solid gold;
+  }
+  button{
+    margin-top: 25px;
+    background-color: gold;
+    border: none;
+    color: #252525;
+    font-size: 24px;
+    padding: 10px;
+  }
+  button:hover{
+    background-color: lightgreen;
+  
+  }
